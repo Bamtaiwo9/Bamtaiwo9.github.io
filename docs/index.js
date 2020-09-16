@@ -5,7 +5,7 @@ var checker;
 
 const requestCity = async (city) => { 
     //const baseURL = 'http://api.openweathermap.org/data/2.5/weather'
-    const baseURL = 'http://api.openweathermap.org/data/2.5/forecast'
+    const baseURL = 'https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/forecast'
     //pro.openweathermap.org/data/2.5/forecast/hourly?q={city name}&appid={your api key}
     //const baseURL = 'http://pro.openweathermap.org/data/2.5/forecast/hourly'
     const query = `?q=${city}&appid=${key}&units=metric`;
@@ -20,8 +20,8 @@ const requestCity = async (city) => {
 
 //requestCity(mexico)
 const requestCurrent = async (city) => { 
-    const baseURL = 'http://api.openweathermap.org/data/2.5/weather'
-    //const baseURL = 'http://api.openweathermap.org/data/2.5/forecast'
+    const baseURL = 'https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather'
+    //const baseURL = 'http://api.openweathermap.org/data/2.5/forecast' cors-anywhere.hero
     const query = `?q=${city}&appid=${key}&units=metric`;
 
     
