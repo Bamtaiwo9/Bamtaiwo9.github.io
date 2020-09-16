@@ -74,7 +74,7 @@ updateWeatherApp = (one) => {
     const desp= one.sys.country
     const imageName = one.weather[0].icon;
     const timeNow = one.main.temp.toFixed(1)
-    const iconSrc = `https://cors-anywhere.herokuapp.com/openweathermap.org/img/wn/${imageName}@2x.png`
+    const iconSrc = `http://openweathermap.org/img/wn/${imageName}@2x.png`
     img.src=iconSrc
     dayicon.src=iconSrc
     temp.innerHTML  =`<span style='color:#dada15'>${timeNow}&deg;C</span>`
