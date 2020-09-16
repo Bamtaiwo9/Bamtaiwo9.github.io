@@ -21,7 +21,7 @@ const requestCity = async (city) => {
 //requestCity(mexico)
 const requestCurrent = async (city) => { 
     const baseURL = 'https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather'
-    //const baseURL = 'http://api.openweathermap.org/data/2.5/forecast' cors-anywhere.hero
+    //const baseURL = 'http://api.openweathermap.org/data/2.5/forecast'
     const query = `?q=${city}&appid=${key}&units=metric`;
 
     
