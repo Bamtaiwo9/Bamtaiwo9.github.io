@@ -6,7 +6,7 @@ on:
       - release-production-*
 
 jobs:
-  deploy_to_firebase_hosting:
+  deploy_to_firebase_hosting2:
 
     runs-on: ubuntu-latest
     
